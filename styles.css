@@ -1,0 +1,159 @@
+.sub_button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 34px;
+    width: 97px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+}
+.sub_button:hover {
+    opacity: 0.6;
+}
+.sub_button:active {
+    opacity: 0.5;
+}
+
+.join_button {
+    background-color: white;
+    border-color: rgb(71, 99, 255);
+    color: rgb(71, 99, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 510;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+.join_button:hover {
+    background-color: rgb(71, 99, 255);
+    color: white;
+}
+.join_button:active {
+    opacity: 0.7;
+}
+
+.tweet_button {
+    background-color: rgb(69, 142, 236);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 18px;
+    height: 34px;
+    width: 67px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: box-shadow 0.15s;
+}
+.tweet_button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.body {
+    font-family: Arial;
+    background-color: rgb(149, 119, 119);
+}
+.search-bar {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.login-button a {
+    background-color: rgb(67, 57, 57);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: nove;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.15s;
+}
+.login-button a:hover {
+    opacity: 0.8;
+}
+.login-button a:active {
+    opacity: 0.6;
+}
+
+.bar {
+    background-color: rgba(21, 20, 20, 0.887);
+    margin-bottom: 20px;
+    
+}
+.pagination a {
+    background-color: rgb(67, 57, 57);
+    color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.15s,
+        color 0.15s;
+}
+.pagination a.active {
+    background-color: bisque;
+    color: black;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.movies-list {
+    align-items: center;
+    border-radius: 15px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(21, 20, 20, 0.887);
+    background-repeat: repeat;
+    background-size: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-bottom: 10px;
+}
+
+.movie-item {
+    background-color: rgba(21, 20, 20, 0.887);
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.movie-item:hover {
+    filter: brightness(0.7);
+}
+
+.movie-name {
+    color: blanchedalmond;
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+}
