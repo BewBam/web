@@ -61,6 +61,8 @@
 }
 
 .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: rgba(21, 20, 20, 0.887);
     margin-bottom: 20px;
     border-radius: 10px;
@@ -90,10 +92,6 @@
 .login-button a {
     background-color: rgb(67, 57, 57);
     border-radius: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     border: nove;
     color: white;
     cursor: pointer;
@@ -129,20 +127,13 @@
 }
 
 .movies-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* auto responsive */
     align-items: center;
     border-radius: 10px;
-    background-attachment: scroll;
-    background-clip: border-box;
     background-color: rgba(21, 20, 20, 0.887);
-    background-repeat: repeat;
-    background-size: auto;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    gap: 10px;
+    padding: 10px;
     cursor: pointer;
     transition: opacity 0.15s;
     margin-bottom: 10px;
@@ -151,18 +142,9 @@
 .movie-item {
     background-color: rgba(21, 20, 20, 0.887);
     border-radius: 5px;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: relative;
+    padding: 10px;
     cursor: pointer;
     transition: background-color 0.15s;
-    text-decoration: none;
-    display: inline-block;
     text-align: center;
 }
 .movie-item:hover {
